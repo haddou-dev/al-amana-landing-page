@@ -1,0 +1,559 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <!-- Works in browser -->
+    <link rel="icon" href="images/logo_favicon/favicon1.png" />
+    <!-- Works in Apple -->
+    <link rel="icon" href="images/logo_favicon/apple_touch_icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GROUPE SCOLAIRE AL AMANA</title>
+  </head>
+  <body>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** HEADER ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <header class="header">
+      <a href="#" class="header__logo-link logo">
+        <img
+          src="images/logo_favicon/logoamana.svg"
+          alt="GROUPE SCOLAIRE AL AMANA"
+          class="header__logo"
+        />
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li><a class="header__nav--link" href="#aboutUs">About Us </a></li>
+          <li>
+            <a class="header__nav--link" href="#platform">Nos platform</a>
+          </li>
+          <li>
+            <a class="header__nav--link" href="#services">Our Services</a>
+          </li>
+          <li>
+            <a class="header__nav--link" href="#cycles">Nos Cycles</a>
+          </li>
+          <li class="hide">
+            <a class="btn header__nav--cta" href="#" target="_blank"
+              >Se Connecter</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a class="header__nav--cta" href="#" target="_blank">Se Connecter</a>
+      <button class="header__btn--mobile" id="btn">
+        <ion-icon
+          class="header__btn--mobile-icon"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="header__btn--mobile-icon"
+          name="close-outline"
+        ></ion-icon>
+      </button>
+    </header>
+
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** HERO SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light_section hero">
+      <div class="hero-section">
+        <div class="hero-section__box">
+          <div class="hero-section__box--category">
+            <div class="hero-section__box--category-bar"></div>
+            <p class="hero-section__box--category-text">
+              Groupe Scolaire Al Amana
+            </p>
+          </div>
+          <p class="hero-section__box--heading">
+            " Le meilleur moyen de prédire l'avenir est de le créer ".
+          </p>
+
+          <p class="hero-section__box--aboutme">
+            Le Groupe Scolaire Al Amana se donne pour mission de promouvoir la
+            personne humaine dans toutes ses dimensions : intellectuelle ,
+            physique, sociale, morale et culturelle en offrant à ses élèves un
+            enseignement de qualité .
+          </p>
+          <div class="hero-section__box--buttons">
+            <a href="#Contact" class="btn hero-section__box--buttons-Contact">
+              Contact Us
+            </a>
+            <div class="watch_Vid">
+              <a href="#prompt" class="hero-section__box--buttons-More">
+                <img src="images/icons/play_icon.svg" alt="" />
+              </a>
+              <p>Watch Video</p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="hero-section__img"
+          src="images/img/hero_img.png"
+          alt="Mohamed Haddou image"
+        />
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** Numbers SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light-blue-section">
+      <div class="numbers-section">
+        <div class="numbers-section_box">
+          <div class="numbers-section_box--number">6.300+</div>
+          <div class="numbers-section_box--type">Student</div>
+        </div>
+        <div class="numbers-section_box">
+          <div class="numbers-section_box--number">102+</div>
+          <div class="numbers-section_box--type">Teacher</div>
+        </div>
+        <div class="numbers-section_box">
+          <div class="numbers-section_box--number">560+</div>
+          <div class="numbers-section_box--type">Class</div>
+        </div>
+        <div class="numbers-section_box">
+          <div class="numbers-section_box--number">7+</div>
+          <div class="numbers-section_box--type">School</div>
+        </div>
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** AboutUs SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light_section" id="aboutUs">
+      <div class="AbouUs-section">
+        <img src="images/img/aboutUs_img.png" alt="About AL AMANA ONLINE" />
+        <div class="AbouUs-section_container">
+          <h1 class="AbouUs-section_container--heading">À propos de nous</h1>
+          <p class="AbouUs-section_container--paragraph">
+            Le Groupe Scolaire Al Amana a été créé depuis 1981, il accueille les
+            enfants de la maternelle jusqu’au lycée tout en assurant un
+            accompagnement personnalisé et un suivi pédagogique. Notre groupe a
+            pour mission d’offrir une formation complète accompagnant nos
+            enfants depuis la maternelle, tout le long de leur scolarité,
+            préparant nos futurs bacheliers à la vie active dans une société en
+            perpétuel changement....
+          </p>
+          <div class="AbouUs-section_container--boxes">
+            <div class="AbouUs-section_container--boxes-box">
+              <img src="images/icons/star_icon.svg" alt="" />
+              <p>Quality Education</p>
+            </div>
+            <div class="AbouUs-section_container--boxes-box">
+              <img src="images/icons/playtolearn_icon.png" alt="" />
+              <p>Play To Learn</p>
+            </div>
+            <div class="AbouUs-section_container--boxes-box">
+              <img src="images/icons/home_icon.svg" alt="" />
+              <p>Safety and Security</p>
+            </div>
+            <div class="AbouUs-section_container--boxes-box">
+              <img src="images/icons/iconom_icon.png" alt="" />
+              <p>Quality Education</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** platform SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light-blue-section" id="platform">
+      <div class="platform-section">
+        <h3 class="platform-section_samllheading">notre platform</h3>
+        <h1 class="platform-section_bigheading">Al amana online platform</h1>
+        <p class="platform-section_para">
+          Les applications mobiles font désormais partie de notre quotidien.
+          Qu’elles soient à finalité personnelle ou professionnelle, elles
+          peuvent s’avérer très utiles. Le nombre d’utilisateurs d’applications
+          mobiles ne faisant qu’augmenter,
+        </p>
+        <img
+          src="images/img/platform_img.png"
+          alt="platform Group scolaire al amana"
+        />
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** application SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light_section" >
+      <div class="application-section">
+        <h3 class="application-section_samllheading">Nos application</h3>
+        <h1 class="application-section_bigheading">Al amana application .</h1>
+        <div class="application-section_level">
+          <div class="application-section_level--box">
+            <h1 class="number">01</h1>
+            <h2 class="title">communication</h2>
+            <ul class="list">
+              <li class="item">
+                - Communiquer avec les professeurs et l'administration
+                facilement .
+              </li>
+              <li class="item">
+                - Consulté absence et la situation administrative.
+              </li>
+            </ul>
+          </div>
+          <img
+            class="application-section_level--img"
+            src="images/img/mockUp1_m.png"
+            alt="groupe scolaire alamana application"
+          />
+        </div>
+        <div class="application-section_level">
+          <img
+            src="images/img/mockUp2_m.png"
+            alt="groupe scolaire alamana application"
+          />
+          <div
+            class="application-section_level--box application-section_level--img"
+          >
+            <h1 class="number">02</h1>
+            <h2 class="title">Espace des fichiers</h2>
+            <ul class="list">
+              <li class="item">
+                - Consulter et télécharger les Emplois de temps .
+              </li>
+              <li class="item">
+                - Consulter les Buttetin et les Résultats des examens .
+              </li>
+              <li class="item">
+                - Accéder et télécharger les cours et les exercices (PDF ou
+                Video) .
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="application-section_level">
+          <div class="application-section_level--box">
+            <h1 class="number">03</h1>
+            <h2 class="title">Demande des pièces en ligne</h2>
+            <ul class="list">
+              <li class="item">
+                - Demande des attestations de scolarité et des factures de
+                paiement sans deplacé a l'école
+              </li>
+            </ul>
+          </div>
+          <img
+            class="application-section_level--img"
+            src="images/img/mockUp3_m.png"
+            alt="groupe scolaire alamana application"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** services SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light-blue-section" id="services">
+      <div class="services-section">
+        <h3 class="services-section_samllheading">Nos services</h3>
+        <h1 class="services-section_bigheading">Bienefaits d’al amana  </h1>
+        <div class="services-section_cards">
+          <div class="services-section_cards--card">
+            <img
+              class="image"
+              src="images/img/infirmerie.png"
+              alt=" group scolaire alamana infirmerie"
+            />
+            <p class="title">infirmerie</p>
+            <p class="para">
+              La santé est un enjeu éducatif crucial, et le personnel médical a
+              un rôle important d’accueil, d’écoute, de soins, et d’éducation
+              ....
+            </p>
+            <a
+              class="btn-lire"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              lire plus
+            </a>
+          </div>
+          <div class="services-section_cards--card">
+            <img
+              class="image"
+              src="images/img/transport.png"
+              alt=" group scolaire alamana infirmerie"
+            />
+            <p class="title">Transport</p>
+            <p class="para">
+              Le groupe scolaire Al Amana assure un service de transport payant
+              aux élèves de leur domicile à l’établissement scolaire et de 
+              ....
+            </p>
+            <a
+              class="btn btn-lire"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              lire plus
+            </a>
+          </div>
+          <div class="services-section_cards--card">
+            <img
+              class="image"
+              src="images/img/restoration.jpg"
+              alt=" group scolaire alamana infirmerie"
+            />
+            <p class="title">Restauration scolaire</p>
+            <p class="para">
+              Le groupe scolaire Al Amana met à la disposition de élèves,
+              l’équipement et l’encadrement nécessaire pour le repas de midi
+               ....
+            </p>
+            <a
+              class="btn-lire"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              lire plus
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** Cycles SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light_section" id="cycles">
+      <div class="Cycles-section">
+        <h3 class="Cycles-section_samllheading">Nos Cycles</h3>
+        <h1 class="Cycles-section_bigheading">Al amana online Cycles</h1>
+        <p class="Cycles-section_para">
+          LE GROUPE SCOLAIRE AL AMANA accueille les enfants de la maternelle
+          jusqu’au lycée tout en assurant 
+          un accompagnement personnalisé, une progression et un suivi
+          pédagogique.
+        </p>
+        <div class="Cycles-section_levels">
+          <div class="Cycles-section_levels_level">
+            <div class="Cycles-section_levels_level--box">
+              <h1 class="title">La Maternelle</h1>
+              <p class="para">
+                Le monde préscolaire accueillant les enfants dès l’âge de 2 ans,
+                la maternelle constitue pour l’enfant sa première expérience
+                scolaire, notre école veille à respecter les rythmes ....
+              </p>
+              <a
+                class="btn-lire"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lire Plus</a
+              >
+            </div>
+            <img
+              class="Cycles-section_levels_level--img"
+              src="images/img/mater_img.png"
+              alt="la maternelle Groupe Scolaire al amana "
+            />
+          </div>
+          <div class="Cycles-section_levels_level">
+            <img
+              class="Cycles-section_levels_level--img"
+              src="images/img/pri_img.png"
+              alt="la maternelle Groupe Scolaire al amana "
+            />
+            <div class="Cycles-section_levels_level--box">
+              <h1 class="title">Primaire</h1>
+              <p class="para">
+                Les enfants intègrent la première classe (CP) du primaire dès
+                l’âge de 6 ans, le primaire fonde les bases d’une formation
+                menant chaque enfant à une qualification, et qui se prolongera
+                ....
+              </p>
+              <a
+                class="btn-lire"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lire Plus</a
+              >
+            </div>
+          </div>
+          <div class="Cycles-section_levels_level">
+            <div class="Cycles-section_levels_level--box">
+              <h1 class="title">Enseignement secondaire</h1>
+              <p class="para">
+                L’enseignement secondaire comprend deux cycles successifs le
+                Collège et le Lycée d’une durée de 3 ans chacun. Pour enrichir
+                notre programme national nous avons adopté le
+              </p>
+              <a
+                class="btn-lire"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lire Plus</a
+              >
+            </div>
+            <img
+              class="Cycles-section_levels_level--img"
+              src="images/img/Ens_img.png"
+              alt="la maternelle Groupe Scolaire al amana "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** contact SECTION  ************************************ -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <section class="light-section" href="Contact">
+      <div class="contact-section">
+        <h1 class="contact-section_heading">Contacez-Nous</h1>
+        <div class="cycle_yellow"></div>
+        <div class="cycle_pink"></div>
+        <div class="cycle_red"></div>
+        <div class="contact-section_form">
+          <h1 class="contact-section_form--heading">
+            nous somme à votre disposition pour toute information complémentaire
+          </h1>
+          <div class="contact-section_form--email">
+            <input type="text" placeholder="Mohamed Haddou" />
+            <input type="text" placeholder=" Haddou0Mohamed@gmail.com" />
+            <input type="text" placeholder="Subject" />
+          </div>
+          <textarea
+            class="contact-section_form--textarea"
+            name="textarea1"
+            id="textarea1"
+            cols="70"
+            rows="10"
+            placeholder="Tapez votre message ici"
+          ></textarea>
+        </div>
+      </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- **************************** Footer ******************************* -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <footer class="light-blue-section">
+      <div class="footer-section">
+        <div class="footer-section_logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo"
+              src="images/logo_favicon/logoamana.svg"
+              alt="Groupe scolaire alamana Logo"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a
+                target="_blank"
+                class="footer-link"
+                href="https://www.instagram.com/meed.agency/"
+              >
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="footer-link"
+                href="https://www.facebook.com/109063081698995/posts/pfbid0R2NSgRVUkpt4TqAgtziV8M6GFZMvYZmuTmBouViWdHCiAbVehdSJkTShA6TvifBdl/?d=n"
+              >
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                class="footer-link"
+                href="https://vm.tiktok.com/ZMNd7rnYm/"
+              >
+                <ion-icon class="social-icon" name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; design and Build by Mohamed Haddou.
+          </p>
+        </div>
+        <div class="footer-section_address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">Rabat</p>
+            <p class="address">
+              <!-- <a href="tel:+212 6 91 99 65 38" class="footer-link"> </a> -->
+              +212 6 91 99 65 38
+            </p>
+            <p class="address">
+              <!-- <a href="mailto:Agency.meed@gmail.com" class="footer-link"></a>-->
+              Agency.meed@gmail.com
+            </p>
+          </address>
+        </div>
+        <nav class="footer-section_nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Al Amana Platform</a></li>
+            <li><a href="#" class="footer-link">Al Amana Application</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-section_nav-col">
+          <ul class="footer-buttons">
+            <li>
+              <a href="#" class="footer-buttons_btn blue-btn">Me Connecter</a>
+            </li>
+            <li><a href="#" class="footer-buttons_btn red-btn">Morona</a></li>
+            <li>
+              <a href="#" class="footer-buttons_btn yellow-btn">Google play</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
