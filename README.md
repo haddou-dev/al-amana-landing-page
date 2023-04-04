@@ -1,0 +1,2 @@
+# al-amana-landing-page
+Al Amana is a website that manages a group of schools. It helps students access their courses and stay informed about exam times and results. The website also allows parents to stay informed about their children's progress in school. Al Amana provides a convenient and easy-to-use platform for students and parents to stay informed and connected with their schools. Overall, it aims to enhance the education experience for all involved.
